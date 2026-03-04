@@ -119,9 +119,9 @@ Prepare structured data for BI consumption <br><br>
 A proper star schema approach was implemented using a continuous Date Table to handle missing months and enable time intelligence.<br><br>
 
 
-🔹 DAX Measure Example
+🔹 DAX Example
 
-📸 (Screenshot — DAX Measure)
+📸 (Screenshot — DAX Formula)
 
 ![DAX Measure](screenshots/DAX_measure_example.png) 
 creating a Date table <br><br>
