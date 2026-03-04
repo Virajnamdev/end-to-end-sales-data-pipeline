@@ -35,14 +35,14 @@ Excel Files
 
 📂 Project Folders Structure
 
-📸 (Screenshot 1 — Folder Structure)
+📸 (Screenshot — Folder Structure)
 
 ![Folder Structure](screenshots/folder_structure.png) 
 The project is structured into data preparation, SQL analysis, and Power BI reporting layers to ensure separation of concerns and modular design.<br><br>
 
 🔹 Column Mapping Logic
 
-📸 (Screenshot 2 — Column Mapping)
+📸 (Screenshot — Column Mapping)
 
 ![Column Mapping](screenshots/column_mapping.png)
 
@@ -51,7 +51,7 @@ Column names from multiple inconsistent Excel files were standardized using a ma
 
 🔹 Data Cleaning & Type Alignment
 
-📸 (Screenshot 3 — Data Cleaning)
+📸 (Screenshot — Data Cleaning)
 
 ![Data Cleaning](screenshots/data_cleaning.png)
 
@@ -70,7 +70,7 @@ Ensuring date consistency <br><br>
 
 🔹 Loop-Based SQL Loading
 
-📸 (Screenshot 4 — Loop Based SQL Load)
+📸 (Screenshot — Loop Based SQL Load)
 
 ![SQL Load Loop](screenshots/Loop-based_SQL_loading.png)
 
@@ -79,7 +79,7 @@ All Excel files were processed dynamically using a loop, enabling automated inge
 
 🔹 Console Execution Output
 
-📸 (Screenshot 5 — Console Output)
+📸 (Screenshot — Console Output)
 
 ![Console Output](screenshots/console_output.png)
 
@@ -89,7 +89,7 @@ The console output confirms successful processing and loading of multiple files 
 🗄 SQL Database Layer
 🔹 Final Merged Table
 
-📸 (Screenshot 6 — Final Table)
+📸 (Screenshot — Final Table)
 
 ![Merged Table](screenshots/final_merged_table.png)
 
@@ -98,7 +98,7 @@ All cleaned datasets were merged into a centralized SQL table for analytical pro
 
 🔹 SQL View (Business Aggregation)
 
-📸 (Screenshot 7 — SQL View)
+📸 (Screenshot — SQL View)
 
 ![SQL View](screenshots/sql_view.png)
 
@@ -114,7 +114,7 @@ Prepare structured data for BI consumption<br><br>
 📊 Power BI Data Modeling
 🔹 Data Model Relationship View
 
-📸 (Screenshot 8 — Model View)
+📸 (Screenshot — Model View)
 
 ![Data Model](screenshots/Data_model_relationship_view.png)
 
@@ -123,7 +123,7 @@ A proper star schema approach was implemented using a continuous Date Table to h
 
 🔹 DAX Measure Example
 
-📸 (Screenshot 9 — DAX Measure)
+📸 (Screenshot — DAX Measure)
 
 ![DAX Measure](screenshots/DAX_measure_example.png)
 
@@ -141,7 +141,7 @@ Top N Analysis <br><br>
 📈 Business Intelligence Dashboard
 🔹 Full Dashboard
 
-📸 (Screenshot 10 — Dashboard)
+📸 (Screenshot — Dashboard)
 
 ![Dashboard](screenshots/dashboard.png)
 
@@ -150,7 +150,7 @@ The dashboard provides an executive-level overview of business performance from 
 
 🔹 Combo Chart (Trend + Margin)
 
-📸 (Screenshot 11 — Combo Chart)
+📸 (Screenshot — Combo Chart)
 
 ![Combo Chart](screenshots/combo_chart.png)
 
@@ -163,7 +163,7 @@ Profit Margin Trend (Line)<br><br>
 
 🔹 KPI Section
 
-📸 (Screenshot 12 — KPI Section)
+📸 (Screenshot — KPI Section)
 
 ![KPI Section](screenshots/KPI_section.png)
 
