@@ -1,5 +1,7 @@
-📊 End-to-End Sales Data ETL Pipeline & Analytics Dashboard
-🔷 Project Overview
+📊 End-to-End Sales Data ETL Pipeline & Analytics Dashboard <br><br>
+
+
+🔷 Project Overview 
 
 This project demonstrates an end-to-end sales data analysis workflow using Python, SQL, and Power BI.
 
@@ -17,10 +19,10 @@ Merged into structured tables
 
 Aggregated using SQL views
 
-Connected to Power BI for KPI reporting and business analysis
+Connected to Power BI for KPI reporting and business analysis.<br><br>
 
 This repository contains a demo-safe version of the automation pipeline.
-Advanced business transformation logic has been modularized.
+Advanced business transformation logic has been modularized.<br><br>
 
 🏗 Architecture Flow
 
@@ -39,16 +41,16 @@ Excel Files
 
 Explanation below image:
 
-The project is structured into data preparation, SQL analysis, and Power BI reporting layers to ensure separation of concerns and modular design.
+The project is structured into data preparation, SQL analysis, and Power BI reporting layers to ensure separation of concerns and modular design.<br><br>
 
-🐍 Data Preparation (Python ETL)
 🔹 Column Mapping Logic
 
 📸 (Screenshot 2 — Column Mapping)
 
 ![Column Mapping](screenshots/column_mapping.png)
 
-Column names from multiple inconsistent Excel files were standardized using a mapping dictionary to ensure schema consistency before database loading.
+Column names from multiple inconsistent Excel files were standardized using a mapping dictionary to ensure schema consistency before database loading.<br><br>
+
 
 🔹 Data Cleaning & Type Alignment
 
@@ -66,7 +68,8 @@ Removing invalid characters
 
 Standardizing numeric fields
 
-Ensuring date consistency
+Ensuring date consistency <br><br>
+
 
 🔹 Loop-Based SQL Loading
 
@@ -74,7 +77,8 @@ Ensuring date consistency
 
 ![SQL Load Loop](screenshots/Loop-based_SQL_loading.png)
 
-All Excel files were processed dynamically using a loop, enabling automated ingestion of multiple files without manual intervention.
+All Excel files were processed dynamically using a loop, enabling automated ingestion of multiple files without manual intervention.<br><br>
+
 
 🔹 Console Execution Output
 
@@ -82,7 +86,8 @@ All Excel files were processed dynamically using a loop, enabling automated inge
 
 ![Console Output](screenshots/console_output.png)
 
-The console output confirms successful processing and loading of multiple files into SQL.
+The console output confirms successful processing and loading of multiple files into SQL. <br><br>
+
 
 🗄 SQL Database Layer
 🔹 Final Merged Table
@@ -91,7 +96,8 @@ The console output confirms successful processing and loading of multiple files 
 
 ![Merged Table](screenshots/final_merged_table.png)
 
-All cleaned datasets were merged into a centralized SQL table for analytical processing.
+All cleaned datasets were merged into a centralized SQL table for analytical processing.<br><br>
+
 
 🔹 SQL View (Business Aggregation)
 
@@ -105,7 +111,8 @@ Aggregate yearly sales
 
 Compute profit metrics
 
-Prepare structured data for BI consumption
+Prepare structured data for BI consumption<br><br>
+
 
 📊 Power BI Data Modeling
 🔹 Data Model Relationship View
@@ -114,7 +121,8 @@ Prepare structured data for BI consumption
 
 ![Data Model](screenshots/Data_model_relationship_view.png)
 
-A proper star schema approach was implemented using a continuous Date Table to handle missing months and enable time intelligence.
+A proper star schema approach was implemented using a continuous Date Table to handle missing months and enable time intelligence.<br><br>
+
 
 🔹 DAX Measure Example
 
@@ -130,7 +138,8 @@ Profit Margin
 
 Year-over-Year Growth
 
-Top N Analysis
+Top N Analysis <br><br>
+
 
 📈 Business Intelligence Dashboard
 🔹 Full Dashboard
@@ -139,7 +148,8 @@ Top N Analysis
 
 ![Dashboard](screenshots/dashboard.png)
 
-The dashboard provides an executive-level overview of business performance from 2012–2020.
+The dashboard provides an executive-level overview of business performance from 2012–2020.<br><br>
+
 
 🔹 Combo Chart (Trend + Margin)
 
@@ -151,7 +161,8 @@ A combo chart was used to visualize:
 
 Monthly Sales (Column)
 
-Profit Margin Trend (Line)
+Profit Margin Trend (Line)<br><br>
+
 
 🔹 KPI Section
 
@@ -167,7 +178,8 @@ Total Profit
 
 Profit Margin
 
-Year-over-Year Growth
+Year-over-Year Growth <br><br>
+
 
 📌 Key Business Insights
 
@@ -177,7 +189,8 @@ Profit margin averaged approximately 68%.
 
 Certain months showed zero recorded transactions.
 
-Top 5 customers contributed significantly to total revenue.
+Top 5 customers contributed significantly to total revenue. <br><br>
+
 
 🛠 Tools & Technologies
 
@@ -191,11 +204,13 @@ DAX
 
 SQL Views
 
-Data Modeling (Star Schema)
+Data Modeling (Star Schema) <br><br>
+
 
 🔎 Data Handling Note
 
-Months with no recorded transactions were treated as zero sales using a continuous Date Table approach to ensure accurate trend visualization.
+Months with no recorded transactions were treated as zero sales using a continuous Date Table approach to ensure accurate trend visualization.<br><br>
+
 
 🚀 Skills Demonstrated
 
