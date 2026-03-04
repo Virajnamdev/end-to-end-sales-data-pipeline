@@ -35,7 +35,7 @@ Excel Files
 
 📸 (Screenshot 1 — Folder Structure)
 
-![Folder Structure](dashboard_preview/folder_structure.png)
+![Folder Structure](screenshots/folder_structure.png)
 
 Explanation below image:
 
@@ -46,7 +46,7 @@ The project is structured into data preparation, SQL analysis, and Power BI repo
 
 📸 (Screenshot 2 — Column Mapping)
 
-![Column Mapping](dashboard_preview/column_mapping.png)
+![Column Mapping](screenshots/column_mapping.png)
 
 Column names from multiple inconsistent Excel files were standardized using a mapping dictionary to ensure schema consistency before database loading.
 
@@ -54,7 +54,7 @@ Column names from multiple inconsistent Excel files were standardized using a ma
 
 📸 (Screenshot 3 — Data Cleaning)
 
-![Data Cleaning](dashboard_preview/data_cleaning.png)
+![Data Cleaning](screenshots/data_cleaning.png)
 
 Data cleaning steps included:
 
@@ -72,7 +72,7 @@ Ensuring date consistency
 
 📸 (Screenshot 4 — Loop Based SQL Load)
 
-![SQL Load Loop](dashboard_preview/sql_loading_loop.png)
+![SQL Load Loop](screenshots/Loop-based_SQL_loading.png)
 
 All Excel files were processed dynamically using a loop, enabling automated ingestion of multiple files without manual intervention.
 
@@ -80,7 +80,7 @@ All Excel files were processed dynamically using a loop, enabling automated inge
 
 📸 (Screenshot 5 — Console Output)
 
-![Console Output](dashboard_preview/console_output.png)
+![Console Output](screenshots/console_output(showing_multiple_files_processed).png)
 
 The console output confirms successful processing and loading of multiple files into SQL.
 
@@ -89,7 +89,7 @@ The console output confirms successful processing and loading of multiple files 
 
 📸 (Screenshot 6 — Final Table)
 
-![Merged Table](dashboard_preview/final_merged_table.png)
+![Merged Table](screenshots/final_merged_table.png)
 
 All cleaned datasets were merged into a centralized SQL table for analytical processing.
 
@@ -97,7 +97,7 @@ All cleaned datasets were merged into a centralized SQL table for analytical pro
 
 📸 (Screenshot 7 — SQL View)
 
-![SQL View](dashboard_preview/sql_view.png)
+![SQL View](screenshots/sql_view.png)
 
 A SQL view was created to:
 
@@ -112,7 +112,7 @@ Prepare structured data for BI consumption
 
 📸 (Screenshot 8 — Model View)
 
-![Data Model](dashboard_preview/data_model.png)
+![Data Model](screenshots/Data_model_relationship_view.png)
 
 A proper star schema approach was implemented using a continuous Date Table to handle missing months and enable time intelligence.
 
@@ -120,7 +120,7 @@ A proper star schema approach was implemented using a continuous Date Table to h
 
 📸 (Screenshot 9 — DAX Measure)
 
-![DAX Measure](dashboard_preview/dax_measure.png)
+![DAX Measure](screenshots/DAX_measure_example.png)
 
 Key measures implemented:
 
@@ -137,7 +137,7 @@ Top N Analysis
 
 📸 (Screenshot 10 — Dashboard)
 
-![Dashboard](dashboard_preview/dashboard_full.png)
+![Dashboard](screenshots/dashboard.png)
 
 The dashboard provides an executive-level overview of business performance from 2012–2020.
 
@@ -145,7 +145,7 @@ The dashboard provides an executive-level overview of business performance from 
 
 📸 (Screenshot 11 — Combo Chart)
 
-![Combo Chart](dashboard_preview/combo_chart.png)
+![Combo Chart](screenshots/combo_chart.png)
 
 A combo chart was used to visualize:
 
@@ -157,7 +157,7 @@ Profit Margin Trend (Line)
 
 📸 (Screenshot 12 — KPI Section)
 
-![KPI Section](dashboard_preview/kpi_section.png)
+![KPI Section](screenshots/KPI_section.png)
 
 KPIs displayed:
 
