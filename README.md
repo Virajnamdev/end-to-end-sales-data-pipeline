@@ -70,7 +70,7 @@ Ensuring date consistency <br><br>
 
 🔹 Loop-Based SQL Loading
 
-📸 (Screenshot — Loop Based SQL Load)
+📸 (Screenshot — Loop-Based SQL Loading)
 
 ![SQL Load Loop](screenshots/Loop-based_SQL_loading.png)
 
@@ -79,17 +79,16 @@ All Excel files were processed dynamically using a loop, enabling automated inge
 
 🔹 Console Execution Output
 
-📸 (Screenshot — Console Output)
+📸 (Screenshot — Console Output) 
 
 ![Console Output](screenshots/console_output.png)
 
 The console output confirms successful processing and loading of multiple files into SQL. <br><br>
 
 
-🗄 SQL Database Layer
-🔹 Final Merged Table
+🔹 SQL Database Layer
 
-📸 (Screenshot — Final Table)
+📸 (Screenshot — Final Merged Table)
 
 ![Merged Table](screenshots/final_merged_table.png)
 
@@ -108,13 +107,12 @@ Aggregate yearly sales
 
 Compute profit metrics
 
-Prepare structured data for BI consumption<br><br>
+Prepare structured data for BI consumption <br><br>
 
 
-📊 Power BI Data Modeling
-🔹 Data Model Relationship View
+🔹 Power BI Data Modeling
 
-📸 (Screenshot — Model View)
+📸 (Screenshot — Data Model Relationship View)
 
 ![Data Model](screenshots/Data_model_relationship_view.png)
 
@@ -125,23 +123,14 @@ A proper star schema approach was implemented using a continuous Date Table to h
 
 📸 (Screenshot — DAX Measure)
 
-![DAX Measure](screenshots/DAX_measure_example.png)
+![DAX Measure](screenshots/DAX_measure_example.png) 
 
-Key measures implemented:
-
-Total Sales
-
-Profit Margin
-
-Year-over-Year Growth
-
-Top N Analysis <br><br>
+creating a Date table <br><br>
 
 
-📈 Business Intelligence Dashboard
-🔹 Full Dashboard
+🔹 Business Intelligence Dashboard
 
-📸 (Screenshot — Dashboard)
+📸 (Screenshot — Full Dashboard)
 
 ![Dashboard](screenshots/dashboard.png)
 
@@ -178,7 +167,7 @@ Profit Margin
 Year-over-Year Growth <br><br>
 
 
-📌 Key Business Insights
+📌 Key Business Insights 
 
 Sales peaked during the later years of the dataset.
 
@@ -197,9 +186,7 @@ MySQL
 
 Power BI
 
-DAX
-
-SQL Views
+DAX 
 
 Data Modeling (Star Schema) <br><br>
 
@@ -215,7 +202,7 @@ Data Cleaning & Standardization
 
 Schema Mapping
 
-SQL Aggregation
+SQL Aggregation & view 
 
 Time Intelligence Modeling
 
