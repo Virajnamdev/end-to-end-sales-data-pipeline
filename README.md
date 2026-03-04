@@ -124,7 +124,6 @@ A proper star schema approach was implemented using a continuous Date Table to h
 📸 (Screenshot — DAX Measure)
 
 ![DAX Measure](screenshots/DAX_measure_example.png) 
-
 creating a Date table <br><br>
 
 
