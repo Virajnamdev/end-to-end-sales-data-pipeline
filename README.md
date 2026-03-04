@@ -80,7 +80,7 @@ All Excel files were processed dynamically using a loop, enabling automated inge
 
 📸 (Screenshot 5 — Console Output)
 
-![Console Output](screenshots/console_output (showing multiple files processed).png)
+![Console Output](screenshots/console_output.png)
 
 The console output confirms successful processing and loading of multiple files into SQL.
 
