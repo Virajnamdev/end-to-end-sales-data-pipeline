@@ -24,23 +24,20 @@ Connected to Power BI for KPI reporting and business analysis.<br><br>
 This repository contains a demo-safe version of the automation pipeline.
 Advanced business transformation logic has been modularized.<br><br>
 
-🏗 Architecture Flow
+🏗 Architecture Flow 
 
 Excel Files
 → Python ETL Automation
 → SQL Database
 → SQL Views
 → Power BI
-→ Analytics Dashboard
+→ Analytics Dashboard <br><br>
 
-📂 Project Structure
+📂 Project Folders Structure
 
 📸 (Screenshot 1 — Folder Structure)
 
-![Folder Structure](screenshots/folder_structure.png)
-
-Explanation below image:
-
+![Folder Structure](screenshots/folder_structure.png) 
 The project is structured into data preparation, SQL analysis, and Power BI reporting layers to ensure separation of concerns and modular design.<br><br>
 
 🔹 Column Mapping Logic
