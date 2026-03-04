@@ -7,19 +7,19 @@ This project demonstrates an end-to-end sales data analysis workflow using Pytho
 
 Multiple Excel files stored across different folders were:
 
-Programmatically scanned
+- Programmatically scanned
 
-Column names standardized using mapping logic
+- Column names standardized using mapping logic
 
-Cleaned and type-aligned
+- Cleaned and type-aligned
 
-Loaded into SQL using automated loop-based processing
+- Loaded into SQL using automated loop-based processing
 
-Merged into structured tables
+- Merged into structured tables
 
-Aggregated using SQL views
+- Aggregated using SQL views
 
-Connected to Power BI for KPI reporting and business analysis.<br><br>
+- Connected to Power BI for KPI reporting and business analysis.<br><br>
 
 This repository contains a demo-safe version of the automation pipeline.
 Advanced business transformation logic has been modularized.<br><br>
@@ -57,15 +57,15 @@ Column names from multiple inconsistent Excel files were standardized using a ma
 
 Data cleaning steps included:
 
-Handling missing values
+- Handling missing values
 
-Converting mixed data types
+- Converting mixed data types
 
-Removing invalid characters
+- Removing invalid characters
 
-Standardizing numeric fields
+- Standardizing numeric fields
 
-Ensuring date consistency <br><br>
+- Ensuring date consistency <br><br>
 
 
 🔹 Loop-Based SQL Loading
@@ -103,11 +103,11 @@ All cleaned datasets were merged into a centralized SQL table for analytical pro
 
 A SQL view was created to:
 
-Aggregate yearly sales
+- Aggregate yearly sales
 
-Compute profit metrics
+- Compute profit metrics
 
-Prepare structured data for BI consumption <br><br>
+- Prepare structured data for BI consumption <br><br>
 
 
 🔹 Power BI Data Modeling
@@ -144,9 +144,9 @@ The dashboard provides an executive-level overview of business performance from 
 
 A combo chart was used to visualize:
 
-Monthly Sales (Column)
+- Monthly Sales (Column)
 
-Profit Margin Trend (Line)<br><br>
+- Profit Margin Trend (Line)<br><br>
 
 
 🔹 KPI Section
@@ -157,37 +157,37 @@ Profit Margin Trend (Line)<br><br>
 
 KPIs displayed:
 
-Total Sales
+- Total Sales
 
-Total Profit
+- Total Profit
 
-Profit Margin
+- Profit Margin
 
-Year-over-Year Growth <br><br>
+- Year-over-Year Growth <br><br>
 
 
 📌 Key Business Insights 
 
-Sales peaked during the later years of the dataset.
+- Sales peaked during the later years of the dataset.
 
-Profit margin averaged approximately 68%.
+- Profit margin averaged approximately 68%.
 
-Certain months showed zero recorded transactions.
+- Certain months showed zero recorded transactions.
 
-Top 5 customers contributed significantly to total revenue. <br><br>
+- Top 5 customers contributed significantly to total revenue. <br><br>
 
 
 🛠 Tools & Technologies
 
-Python (Pandas)
+- Python (Pandas)
 
-MySQL
+- MySQL
 
-Power BI
+- Power BI
 
-DAX 
+- DAX 
 
-Data Modeling (Star Schema) <br><br>
+- Data Modeling (Star Schema) <br><br>
 
 
 🔎 Data Handling Note
@@ -197,16 +197,20 @@ Months with no recorded transactions were treated as zero sales using a continuo
 
 🚀 Skills Demonstrated
 
-Data Cleaning & Standardization
+- Data Cleaning & Standardization
 
-Schema Mapping
+- Schema Mapping
 
-SQL Aggregation & view 
+- SQL Aggregation & view 
 
-Time Intelligence Modeling
+- Time Intelligence Modeling
 
-KPI Development
+- KPI Development
 
-Business Dashboard Design
+- Business Dashboard Design
 
-End-to-End Data Workflow
+- End-to-End Data Workflow
+
+
+
+
